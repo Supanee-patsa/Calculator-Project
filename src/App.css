@@ -45,12 +45,16 @@ h1 {
 .button {
   width: 75px;
   height: 30px;
-  background-color: darkblue;
+  background-color: rgb(222, 86, 17);
   border-radius: 20px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 2px 2px 10px dimgray;
   margin: 10px 0 0 0;
+}
+
+.button:hover {
+  color: blueviolet;
 }
 .title {
   color :black
